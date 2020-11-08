@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="test.js"></script>
+ </head>
+ <body>
+    <div id="tabs-files">
+        <div class="tab" onclick="openCity(event, 'London')" style="background-color:#ffff99;float:left;">London
+            <br>
+            <span style="display:inline-block; width: 30px;"></span>
+          <a href ="#" class="close-file">
+            <img src="images/close.png"/>
+          </a>
+          <br>
+        </div>
+        <div class="tab" onclick="openCity(event, 'Paris')" style="background-color:#ffff99;float:left;height:23px">Paris
+            <span style="display:inline-block; width: 30px;"></span>
+          <a href ="#" class="close-file">
+            <img src="images/close.png"/>
+          </a>
+        </div>
+        <div class="tab" onclick="openCity(event, 'Tokyo')" style="background-color:#ffff99;float:left;height:23px">Tokyo
+            <span style="display:inline-block; width: 30px;"></span>
+          <a href ="#" class="close-file">
+            <img src="images/close.png"/>
+          </a>
+        </div>
+        <button id="btn-new-file">New File</button>
+    </div>
+    <div style="clear:both">
+      <div id="menu-algo">
+          <a href="#" id="variable" class="active">Variable</a>
+          <a href="#" id="affectation">Affectation</a>
+          <a href="#" id="print">Print</a>
+          <a href="#" id="if">If</a>
+          <a href="#" id="else-if">Else If</a>
+          <a href="#" id="else">Else</a>
+          <a href="#" id="function">New Function</a>
+          <a href="#" id="function-call">Function call</a>
+          <a href="#" id="for-loop">For loop</a>
+          <a href="#" id="while-loop">While loop</a>
+      </div>
+      <div id="div-algo">
+          <canvas id="canvas-algo" width="500" height="500"></canvas>
+      </div>
+    </div>
+    <p>Choose the language of the code to be generated :</p>
+    <input type="radio" id="python" name="language" value="python">
+    <label for="python">Python</label><br>
+    <input type="radio" id="c" name="language" value="c">
+    <label for="c">C</label><br>
+    <input type="radio" id="java" name="language" value="java">
+    <label for="java">Java</label>
+
+    <button id="btn-generate-code">Generate the code</button>
+ </body>
+</html>

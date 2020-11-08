@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <title>New variable</title>
+  <meta charset="utf-8"/>
+ </head>
+ <body>
+    <form id="form-variable" method="POST">
+        <label for="name-variable">Name :</label>
+        <input type="text" id="name-variable" name="name-variable" required><br>
+        <label for="fname">Type :</label>
+        <select name="type-variable" id="type-variable" form="type-variable">
+            <option value="int">Int</option>
+            <option value="float">Float</option>
+            <option value="string">String</option>
+            <option value="int-array">Int Array</option>
+            <option value="float-array">Float Array</option>
+            <option value="string-array">String Array</option>
+        </select><br>
+        <label for="initial-value">Initial value (optional) :</label>
+        <input type="text" id="initial-value" name="initial-value" placeholder="0"><br>
+        <center>
+            <button id="btn-form-variable" style="background-color:green;color:white">Create variable</button>
+        </center>
+    </form>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+#menu-algo {
+  width: 10%; /* Set a width if you like */
+  display: inline-block;
+}
+
+#div-algo {
+    width: 50%; /* Set a width if you like */
+    height: 70%;
+    display: inline-block;
+    background-color:#99ccff;
+}
+
+#menu-algo a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+#menu-algo a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+#menu-algo a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+#btn-generate-code {
+    background-color: greenyellow;
+    color: white;
+}
