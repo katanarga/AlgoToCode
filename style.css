@@ -1,33 +1,62 @@
-#menu-algo {
-  width: 10%; /* Set a width if you like */
-  display: inline-block;
+body {
+  background-color: #483D8B;
 }
 
+#menu-algo,#div-actions,#div-algo {
+  float: left;
+  position: relative;
+}
+
+#div-actions {
+  background-color: white;
+  z-index: 2;
+}
+
+#tabs-files {
+  margin-left: 115.11px;
+}
+
+
 #div-algo {
-    width: 50%; /* Set a width if you like */
+    width: 70%; /* Set a width if you like */
     height: 70%;
-    display: inline-block;
     background-color:#99ccff;
+    z-index: 1;
 }
 
 #menu-algo a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
 }
 
 #menu-algo a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
+  background-color: #ccc; 
 }
 
-#menu-algo a.active {
-  background-color: #4CAF50; /* Add a green color to the "active/current" link */
-  color: white;
+#menu-algo a:focus {
+  background-color: green;
+  color: white; 
 }
 
 #btn-generate-code {
     background-color: greenyellow;
     color: white;
+}
+
+.tab {
+  background-color:white;
+  float:left;
+}
+
+.tab:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.tab-separator {
+  background-color: black;
+  float:left;
 }
