@@ -3,50 +3,50 @@
  <head>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="style.css">
-  <script src="test.js"></script>
+  <script src="main.js"></script>
  </head>
  <body>
     <div id="tabs-files">
-        <div class="tab">
+        <div id="tab-london" class="tab">
           &nbsp;&nbsp;London&nbsp;&nbsp;
-          <a id="tab-london" href ="#" class="close-file">
+          <a id="close-tab-london" href ="#" class="close-file">
             <img src="images/close.png"/>
           </a>
         </div>
         <div class="tab-separator">&nbsp;</div>
-        <div class="tab">
+        <div id="tab-paris" class="tab">
             &nbsp;&nbsp;Paris&nbsp;
-          <a id="tab-paris" href ="#" class="close-file">
+          <a id="close-tab-paris" href ="#" class="close-file">
             <img src="images/close.png"/>
           </a>
         </div>
         <div class="tab-separator">&nbsp;</div>
-        <div class="tab">
+        <div id="tab-tokyo" class="tab">
             &nbsp;&nbsp;Tokyo&nbsp;
-          <a id="tab-tokyo" href ="#" class="close-file">
+          <a id="close-tab-tokyo" href ="#" class="close-file">
             <img src="images/close.png"/>
           </a>
         </div>
         <div class="tab-separator">&nbsp;</div>
         <button id="btn-new-file" style="height:27px;background-color:green;color:white">New File</button>
     </div>
-    
-      <div id="menu-algo">
-        <a href="#" id="variable" class="active">Variable</a>
-        <a href="#" id="affectation">Affectation</a>
-        <a href="#" id="print">Print</a>
-        <a href="#" id="if">If</a>
-        <a href="#" id="else-if">Else If</a>
-        <a href="#" id="else">Else</a>
-        <a href="#" id="function">New Function</a>
-        <a href="#" id="function-call">Function call</a>
-        <a href="#" id="for-loop">For loop</a>
-        <a href="#" id="while-loop">While loop</a>
-      </div>
-      <div id="div-actions"></div>
-      <div id="div-algo">
-        <canvas id="canvas-algo" width="700" height="700"></canvas>
-      </div>
+        <div id="menu-algo">
+          <a href="#" id="variable" class="active">Variable</a>
+          <a href="#" id="affectation">Affectation</a>
+          <a href="#" id="print">Print</a>
+          <a href="#" id="if">If</a>
+          <a href="#" id="else-if">Else If</a>
+          <a href="#" id="else">Else</a>
+          <a href="#" id="new-function">New Function</a>
+          <a href="#" id="function-call">Function call</a>
+          <a href="#" id="for-loop">For loop</a>
+          <a href="#" id="while-loop">While loop</a>
+        </div>
+        <div id="div-actions"></div>
+        <div id="div-algo">
+          <canvas id="canvas-algo" width="700" height="700"></canvas>
+        </div>
+
       <div style="clear:both">
       Choose the language of the code to be generated :
       <img src="images/python.jpg">

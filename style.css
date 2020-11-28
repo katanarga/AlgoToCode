@@ -7,6 +7,12 @@ body {
   position: relative;
 }
 
+#menu-algo{
+  background-color: #eee; 
+  color: black; 
+  min-height: 704px;
+}
+
 #div-actions {
   background-color: white;
   z-index: 2;
@@ -18,15 +24,10 @@ body {
 
 
 #div-algo {
-    width: 70%; /* Set a width if you like */
-    height: 70%;
-    background-color:#99ccff;
-    z-index: 1;
+    background-color:chocolate;
 }
 
 #menu-algo a {
-  background-color: #eee; 
-  color: black; 
   display: block; 
   padding: 12px; 
   text-decoration: none; 
